@@ -425,3 +425,11 @@ td,
 th {
   padding: 0;
 }
+
+/* My CSS begins here */
+body {
+  background-color: lightgray;
+}
+div {
+  border: 1px solid chocolate;
+}
