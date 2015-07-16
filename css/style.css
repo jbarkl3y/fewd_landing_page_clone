@@ -435,10 +435,19 @@ th {
 }
 
 /* My CSS begins here */
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.content {
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
 
-/****************
+/**********************
   Navigation
-****************/
+***********************/
 .top-navigation {
   background-color: #fff;
   position: fixed;
@@ -470,13 +479,6 @@ th {
 }
 .top-navigation .logo {
   height: 4.375rem;
-  margin-left: 70px;
-  margin-right: 0;
-}
-.content {
-  padding: 0 0.938rem;
-  margin: 0 auto;
-  min-width: 37.5rem;
 }
 ul {
   list-style: none;
@@ -487,7 +489,7 @@ ul {
 ***********************/
 
 .introduction {
-  background-image: url(first-background.jpg);
+  background-image: url(../images/first-background.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -507,4 +509,23 @@ ul {
 .introduction h3 {
   margin-top: 1.125rem;
   font-size: 1.563rem;
+}
+/**********************
+  Button
+***********************/
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  margin-top: 1.563rem;
+}
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
 }
