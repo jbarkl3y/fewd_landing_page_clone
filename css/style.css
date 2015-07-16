@@ -436,6 +436,9 @@ th {
 
 /* My CSS begins here */
 
+/****************
+  Navigation
+****************/
 .top-navigation {
   background-color: #fff;
   position: fixed;
@@ -443,22 +446,19 @@ th {
   border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content{
-  width: 970px;
-  height: 70px;
-  margin: 0 auto;
+  height: 4.375rem;
 }
 .top-navigation .links {
   float: right;
   font-family: 'Roboto', sans-serif;
   color: #838994;
-  font-size: 16px;
-  margin-top: 25px;
-  letter-spacing: 0.03em;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
   -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 1.563rem;
 }
 .top-navigation .links .active {
   color: #4c5058;
@@ -470,9 +470,41 @@ th {
 }
 .top-navigation .logo {
   height: 4.375rem;
+  margin-left: 70px;
+  margin-right: 0;
 }
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
-  min-width: 3.5rem;
+  min-width: 37.5rem;
+}
+ul {
+  list-style: none;
+}
+
+/**********************
+  Introduction section
+***********************/
+
+.introduction {
+  background-image: url(first-background.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43.938rem;
+  overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+.introduction h3 {
+  margin-top: 1.125rem;
+  font-size: 1.563rem;
 }
